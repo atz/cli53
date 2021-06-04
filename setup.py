@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 from setuptools import Command
 
 __version__ = '0.5.2'
-long_description = file('README.markdown', 'r').read()
 
 class tag(Command):
     """Tag git release."""
@@ -29,7 +28,7 @@ setup(
     name='cli53',
     version=__version__,
     description='Command line script to administer the Amazon Route 53 DNS service',
-    long_description=long_description,
+    long_description='An undesirable hack of an abandoned python project',
     license='MIT',
     author='Barnaby Gray',
     author_email='barnaby@pickle.me.uk',
